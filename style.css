@@ -85,38 +85,37 @@ a {
 }
 
 
-.footer{
-  background: #152F4F;
-  color:white;
-  width: 100%;
-  padding: 0;
-  }
+.email{
 
-  .links{
-    ul {list-style-type: none;}
-    li a{
-      color: white;
-      transition: color .2s;
-      &:hover{
-        text-decoration:none;
-        color:#4180CB;
-        }
-    }
-  }  
-  .about-company{
-    i{font-size: 25px;}
-    a{
-      color:white;
-      transition: color .2s;
-      &:hover{color:#4180CB}
-    }
-  } 
-  .location{
-    i{font-size: 18px;}
-  }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0);
+  border-style:#f17a71;
+
+}
+
+.navbar{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
 
 
+.titolo{
+  text-align: center; 
+   font-size: 500%;
+}
 
+.pad{
+  padding-bottom: 50px;
+}
 
+.navbar-brand{
+  color:#e07169;
+  font-size: xx-large;
 
+}
+
+.colCard{
+  background-color:#FDC7C5 ;
+ 
+}
