@@ -108,9 +108,7 @@ a {
    align-items: center;
 }
 
-.pad{
-  padding-bottom: 50px;
-}
+
 
 .navbar-brand{
   color:#A54044;
@@ -140,4 +138,24 @@ a {
 .padX{
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.padR{
+  margin-right: 100px;
+}
+
+.padL{
+  margin-left: 100px;
+}
+
+.padU{
+  padding-top: 100px;
+}
+
+.padD{
+  padding-bottom: 100px;
+}
+
+.mU{
+  margin-bottom: 100px;
 }
