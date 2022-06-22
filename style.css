@@ -1,0 +1,90 @@
+.containerX{
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+body {
+    background: linear-gradient(#FDC7C5, #F7AA7C);
+    height: 100vh;
+  }
+
+  /* .button {
+    background-color: #DB7068;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  } */
+
+  .button{
+    background-color: #DB7068;
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+    color:#fff
+ 
+  }
+
+
+  .immagine{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .centro{
+    text-align: center;
+    align-items: center;
+  }
+
+  
+ 
+  .button:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 15px 20px #f17a71;
+    color: rgb(0, 0, 0);
+    transform: translateY(-7px);
+  }
+
+
+.trasparenza{
+  background-color: rgba(245, 245, 245, 1);
+  opacity: .4;
+}
+
+
+.wrap {
+  height: 25%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottone {
+  padding: 5px;
+}
+
+
+
+
+
