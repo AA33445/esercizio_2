@@ -1,11 +1,8 @@
-.containerX{
-   padding-left: 100px;
-   padding-right: 100px;
-}
 
 body {
     background: linear-gradient(#FDC7C5, #F7AA7C);
     height: 100vh;
+    /* overflow-x:hidden; */
   }
 
   /* .button {
@@ -103,6 +100,12 @@ a {
 .titolo{
   text-align: center; 
    font-size: 500%;
+   vertical-align: middle;
+   color:#A54044;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .pad{
@@ -110,12 +113,31 @@ a {
 }
 
 .navbar-brand{
-  color:#e07169;
+  color:#A54044;
   font-size: xx-large;
+ 
 
 }
 
 .colCard{
   background-color:#FDC7C5 ;
- 
+}
+
+.colX{
+  padding-left: 70px;
+}
+
+
+.colore{
+  color:#97464D;
+}
+
+
+.emailX{
+  padding-right: 70px;
+}
+
+.padX{
+  margin-left: 100px;
+  margin-right: 100px;
 }
